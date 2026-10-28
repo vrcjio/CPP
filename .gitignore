@@ -1,0 +1,45 @@
+# Prerequisites (Compiled Object files)
+*.main
+*.o
+*.obj
+*.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables (Compiled binaries)
+*.exe
+*.out
+*.app
+# Agar aapke project mein output file ka koi specific naam hai (jaise target/), toh use yahan likhein:
+# build/
+# bin/
+
+# IDE and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.vcxproj
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Aapki personal rough files
+Rough1
+Rough*
